@@ -1,0 +1,142 @@
+body {
+    font-family: 'Times New Roman', Arial;
+}
+.logo{
+    cursor: pointer;
+}
+.fex {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.main_box {
+    margin-top: 135px;
+}
+
+.top_bar {
+    height: 30px;
+    background-color: #485460;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f5f2;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #00803d;
+}
+
+.user button {
+    border-radius: 5px;
+    height: 30px;
+    border-color: #00803d;
+    margin: 0px 80px;
+    color: white;
+    background-color: #00803d;
+}
+
+.info_user {
+    height: 500px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(200, 198, 202);
+    position: absolute;
+    top: 65px;
+    right: 108px;
+    border-radius: 7px;
+    display: none;
+}
+
+.user_logo {
+    background-color: #00803d;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-bottom: solid #00803d;
+}
+
+.user_items {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.user_header>span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.user_logo_items {
+    color: white;
+    transform: scale(1.5);
+    background-color: #00803d;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin: 12px;
+    margin-left: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_items>span {
+    font-size: 16px;
+}
+
+.user_items:hover {
+    background-color: #f1f5f2;
+    cursor: pointer;
+}
+
+.print_area,
+.btn_print {
+    margin: 0px 50px;
+    margin-top: 135px;
+}
+
+#btnExport {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(1, 147, 245);
+    color: white;
+    padding: 8px 16px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    border: none;
+}
+
+#btnExport:hover {
+    background-color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+.table_print {
+    width: 100%;
+}
